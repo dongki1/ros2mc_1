@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/PKG-INFO
+writing dependency_links to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/dependency_links.txt
+writing entry points to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/entry_points.txt
+writing requirements to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/requires.txt
+writing top-level names to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/top_level.txt
+reading manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+writing manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+running build
+running build_py
+copying kari_UAV_siyi/UAV_siyi_stream.py -> /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi
+running install
+running install_lib
+copying /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi/UAV_siyi_stream.py -> /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi
+byte-compiling /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi/UAV_siyi_stream.py to UAV_siyi_stream.cpython-310.pyc
+Sorry: IndentationError: unindent does not match any outer indentation level (UAV_siyi_stream.py, line 29)
+running install_data
+running install_egg_info
+removing '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing siyi_control_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+Installing siyi_stream_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+writing list of installed files to '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log'

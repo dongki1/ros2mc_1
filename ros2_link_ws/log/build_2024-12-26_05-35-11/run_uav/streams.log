@@ -1,0 +1,20 @@
+[2.090s] Invoking command in '/home/ros2mc/ros2_link_ws/src/run_uav': PYTHONPATH=/home/ros2mc/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/run_uav build --build-base /home/ros2mc/ros2_link_ws/build/run_uav/build install --record /home/ros2mc/ros2_link_ws/build/run_uav/install.log --single-version-externally-managed install_data
+[2.570s] running egg_info
+[2.581s] writing ../../build/run_uav/run_uav.egg-info/PKG-INFO
+[2.582s] writing dependency_links to ../../build/run_uav/run_uav.egg-info/dependency_links.txt
+[2.583s] writing entry points to ../../build/run_uav/run_uav.egg-info/entry_points.txt
+[2.583s] writing requirements to ../../build/run_uav/run_uav.egg-info/requires.txt
+[2.583s] writing top-level names to ../../build/run_uav/run_uav.egg-info/top_level.txt
+[2.583s] reading manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'
+[2.584s] writing manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'
+[2.584s] running build
+[2.589s] running build_py
+[2.590s] running install
+[2.590s] running install_lib
+[2.591s] running install_data
+[2.591s] running install_egg_info
+[2.591s] removing '/home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info' (and everything under it)
+[2.591s] Copying ../../build/run_uav/run_uav.egg-info to /home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info
+[2.592s] running install_scripts
+[2.666s] writing list of installed files to '/home/ros2mc/ros2_link_ws/build/run_uav/install.log'
+[2.823s] Invoked command in '/home/ros2mc/ros2_link_ws/src/run_uav' returned '0': PYTHONPATH=/home/ros2mc/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/run_uav build --build-base /home/ros2mc/ros2_link_ws/build/run_uav/build install --record /home/ros2mc/ros2_link_ws/build/run_uav/install.log --single-version-externally-managed install_data

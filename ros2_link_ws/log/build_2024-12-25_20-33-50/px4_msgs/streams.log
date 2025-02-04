@@ -1,0 +1,23 @@
+[0.581s] Invoking command in '/home/jetson/ros2_link_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/px4_msgs -- -j6 -l6
+[1.369s] [  0%] Built target px4_msgs__cpp
+[1.514s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[1.667s] [ 12%] Built target ament_cmake_python_copy_px4_msgs
+[1.741s] [ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[1.747s] [ 36%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[1.755s] [ 49%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[1.813s] [ 62%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[1.833s] [ 75%] Built target px4_msgs__rosidl_typesupport_c
+[1.837s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[1.889s] [ 88%] Built target px4_msgs
+[1.969s] [ 88%] Built target px4_msgs__py
+[2.176s] [100%] Built target px4_msgs__rosidl_generator_py
+[2.242s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext
+[2.242s] [100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext
+[2.243s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.284s] running egg_info
+[2.285s] writing px4_msgs.egg-info/PKG-INFO
+[2.286s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[2.286s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[2.296s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[2.301s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[2.377s] [100%] Built target ament_cmake_python_build_px4_msgs_egg

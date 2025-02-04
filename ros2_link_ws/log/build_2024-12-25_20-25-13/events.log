@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001313] (kari_UAV_siyi) JobQueued: {'identifier': 'kari_UAV_siyi', 'dependencies': OrderedDict()}
+[0.001663] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001981] (run_uav) JobQueued: {'identifier': 'run_uav', 'dependencies': OrderedDict()}
+[0.002088] (kari_UAV_siyi) JobStarted: {'identifier': 'kari_UAV_siyi'}
+[0.029089] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.040783] (run_uav) JobStarted: {'identifier': 'run_uav'}
+[0.099373] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300897] (-) TimerEvent: {}
+[0.401532] (-) TimerEvent: {}
+[0.502154] (-) TimerEvent: {}
+[0.602804] (-) TimerEvent: {}
+[0.628288] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.630220] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.631649] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_link_ws/build/px4_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/ros2_link_ws/build/px4_msgs', 'env': OrderedDict([('HOSTNAME', 'ros2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_link_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_link_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'jetson'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', '0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/home/jetson/ros2_link_ws/install/kari-drone-system:/opt/ros/humble'), ('PWD', '/home/jetson/ros2_link_ws/build/px4_msgs'), ('PYTHONPATH', '/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:/home/jetson/ros2_link_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari-drone-system:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble')]), 'shell': False}
+[0.702977] (-) TimerEvent: {}
+[0.803749] (-) TimerEvent: {}
+[0.904483] (-) TimerEvent: {}
+[1.005139] (-) TimerEvent: {}
+[1.105763] (-) TimerEvent: {}
+[1.206637] (-) TimerEvent: {}
+[1.310627] (-) TimerEvent: {}
+[1.411307] (-) TimerEvent: {}
+[1.473432] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[1.511466] (-) TimerEvent: {}
+[1.613258] (-) TimerEvent: {}
+[1.627599] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[1.713432] (-) TimerEvent: {}
+[1.814284] (-) TimerEvent: {}
+[1.849187] (px4_msgs) StdoutLine: {'line': b'[ 24%] Built target px4_msgs__rosidl_typesupport_cpp\n'}
+[1.872413] (px4_msgs) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_copy_px4_msgs\n'}
+[1.895635] (px4_msgs) StdoutLine: {'line': b'[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.914438] (-) TimerEvent: {}
+[1.928351] (px4_msgs) StdoutLine: {'line': b'[ 50%] Built target px4_msgs__rosidl_typesupport_introspection_c\n'}
+[1.959669] (px4_msgs) StdoutLine: {'line': b'[ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.014612] (-) TimerEvent: {}
+[2.051972] (px4_msgs) StdoutLine: {'line': b'[ 75%] Built target px4_msgs__rosidl_typesupport_c\n'}
+[2.066899] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.114779] (-) TimerEvent: {}
+[2.133141] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs\n'}
+[2.214969] (-) TimerEvent: {}
+[2.220905] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__py\n'}
+[2.274546] (run_uav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/run_uav', 'build', '--build-base', '/home/jetson/ros2_link_ws/build/run_uav/build', 'install', '--record', '/home/jetson/ros2_link_ws/build/run_uav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_link_ws/src/run_uav', 'env': {'HOSTNAME': 'ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ros2_link_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_link_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'jetson', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/home/jetson/ros2_link_ws/install/kari-drone-system:/opt/ros/humble', 'PWD': '/home/jetson/ros2_link_ws/build/run_uav', 'PYTHONPATH': '/home/jetson/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:/home/jetson/ros2_link_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari-drone-system'}, 'shell': False}
+[2.294081] (kari_UAV_siyi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kari_UAV_siyi', 'build', '--build-base', '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/build', 'install', '--record', '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_link_ws/src/kari_UAV_siyi', 'env': {'HOSTNAME': 'ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ros2_link_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_link_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'jetson', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/home/jetson/ros2_link_ws/install/kari-drone-system:/opt/ros/humble', 'PWD': '/home/jetson/ros2_link_ws/build/kari_UAV_siyi', 'PYTHONPATH': '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:/home/jetson/ros2_link_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_link_ws/install/px4_msgs:/home/jetson/ros2_link_ws/install/kari-drone-system'}, 'shell': False}
+[2.315117] (-) TimerEvent: {}
+[2.417839] (-) TimerEvent: {}
+[2.473277] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_generator_py\n'}
+[2.517994] (-) TimerEvent: {}
+[2.575672] (px4_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.577302] (px4_msgs) StdoutLine: {'line': b'writing px4_msgs.egg-info/PKG-INFO\n'}
+[2.577870] (px4_msgs) StdoutLine: {'line': b'writing dependency_links to px4_msgs.egg-info/dependency_links.txt\n'}
+[2.578638] (px4_msgs) StdoutLine: {'line': b'writing top-level names to px4_msgs.egg-info/top_level.txt\n'}
+[2.586816] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_c__pyext\n'}
+[2.590592] (px4_msgs) StdoutLine: {'line': b"reading manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[2.595016] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.597264] (px4_msgs) StdoutLine: {'line': b"writing manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[2.598881] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.618139] (-) TimerEvent: {}
+[2.681257] (px4_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_px4_msgs_egg\n'}
+[2.717260] (px4_msgs) CommandEnded: {'returncode': 0}
+[2.718281] (-) TimerEvent: {}
+[2.820089] (-) TimerEvent: {}
+[2.824635] (run_uav) StdoutLine: {'line': b'running egg_info\n'}
+[2.826732] (run_uav) StdoutLine: {'line': b'writing ../../build/run_uav/run_uav.egg-info/PKG-INFO\n'}
+[2.830902] (run_uav) StdoutLine: {'line': b'writing dependency_links to ../../build/run_uav/run_uav.egg-info/dependency_links.txt\n'}
+[2.833395] (run_uav) StdoutLine: {'line': b'writing entry points to ../../build/run_uav/run_uav.egg-info/entry_points.txt\n'}
+[2.833750] (run_uav) StdoutLine: {'line': b'writing requirements to ../../build/run_uav/run_uav.egg-info/requires.txt\n'}
+[2.833904] (run_uav) StdoutLine: {'line': b'writing top-level names to ../../build/run_uav/run_uav.egg-info/top_level.txt\n'}
+[2.836985] (kari_UAV_siyi) StdoutLine: {'line': b'running egg_info\n'}
+[2.838148] (run_uav) StdoutLine: {'line': b"reading manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'\n"}
+[2.838864] (kari_UAV_siyi) StdoutLine: {'line': b'writing ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/PKG-INFO\n'}
+[2.840824] (kari_UAV_siyi) StdoutLine: {'line': b'writing dependency_links to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/dependency_links.txt\n'}
+[2.841270] (kari_UAV_siyi) StdoutLine: {'line': b'writing entry points to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/entry_points.txt\n'}
+[2.841432] (kari_UAV_siyi) StdoutLine: {'line': b'writing requirements to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/requires.txt\n'}
+[2.841566] (run_uav) StdoutLine: {'line': b"writing manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'\n"}
+[2.841703] (kari_UAV_siyi) StdoutLine: {'line': b'writing top-level names to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/top_level.txt\n'}
+[2.841821] (run_uav) StdoutLine: {'line': b'running build\n'}
+[2.841938] (run_uav) StdoutLine: {'line': b'running build_py\n'}
+[2.843278] (run_uav) StdoutLine: {'line': b'running install\n'}
+[2.844196] (run_uav) StdoutLine: {'line': b'running install_lib\n'}
+[2.847333] (kari_UAV_siyi) StdoutLine: {'line': b"reading manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'\n"}
+[2.848198] (run_uav) StdoutLine: {'line': b'running install_data\n'}
+[2.849675] (run_uav) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.850655] (kari_UAV_siyi) StdoutLine: {'line': b"writing manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'\n"}
+[2.851173] (kari_UAV_siyi) StdoutLine: {'line': b'running build\n'}
+[2.851386] (kari_UAV_siyi) StdoutLine: {'line': b'running build_py\n'}
+[2.854137] (run_uav) StdoutLine: {'line': b"removing '/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.855031] (run_uav) StdoutLine: {'line': b'Copying ../../build/run_uav/run_uav.egg-info to /home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info\n'}
+[2.859566] (run_uav) StdoutLine: {'line': b'running install_scripts\n'}
+[2.861866] (kari_UAV_siyi) StdoutLine: {'line': b'running install\n'}
+[2.862195] (kari_UAV_siyi) StdoutLine: {'line': b'running install_lib\n'}
+[2.873224] (kari_UAV_siyi) StdoutLine: {'line': b'running install_data\n'}
+[2.873609] (kari_UAV_siyi) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.876849] (kari_UAV_siyi) StdoutLine: {'line': b"removing '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.878229] (kari_UAV_siyi) StdoutLine: {'line': b'Copying ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info\n'}
+[2.880739] (kari_UAV_siyi) StdoutLine: {'line': b'running install_scripts\n'}
+[2.905378] (run_uav) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_link_ws/build/run_uav/install.log'\n"}
+[2.921558] (-) TimerEvent: {}
+[2.931810] (kari_UAV_siyi) StdoutLine: {'line': b'Installing siyi_control_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi\n'}
+[2.933572] (kari_UAV_siyi) StdoutLine: {'line': b'Installing siyi_stream_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi\n'}
+[2.935593] (kari_UAV_siyi) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log'\n"}
+[2.984777] (run_uav) CommandEnded: {'returncode': 0}
+[3.022002] (-) TimerEvent: {}
+[3.024226] (run_uav) JobEnded: {'identifier': 'run_uav', 'rc': 0}
+[3.027107] (kari_UAV_siyi) CommandEnded: {'returncode': 0}
+[3.041694] (kari_UAV_siyi) JobEnded: {'identifier': 'kari_UAV_siyi', 'rc': 0}
+[3.100776] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build\n    if await has_target(args.build_base, \'install\'):\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target\n    return target in await get_makefile_targets(path)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets\n    output = await check_output([\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/cmake\', \'--build\', \'/home/jetson/ros2_link_ws/build/px4_msgs\', \'--target\', \'help\'] to pass: \n'}
+[3.101355] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[3.112292] (-) EventReactorShutdown: {}

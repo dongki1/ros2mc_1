@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (kari_UAV_siyi) JobQueued: {'identifier': 'kari_UAV_siyi', 'dependencies': OrderedDict()}
+[0.001138] (kari_drone_system) JobQueued: {'identifier': 'kari_drone_system', 'dependencies': OrderedDict()}
+[0.001419] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001713] (run_uav) JobQueued: {'identifier': 'run_uav', 'dependencies': OrderedDict()}
+[0.001812] (kari_UAV_siyi) JobStarted: {'identifier': 'kari_UAV_siyi'}
+[0.019097] (kari_drone_system) JobStarted: {'identifier': 'kari_drone_system'}
+[0.026678] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.034196] (run_uav) JobStarted: {'identifier': 'run_uav'}
+[0.099619] (-) TimerEvent: {}
+[0.200339] (-) TimerEvent: {}
+[0.300940] (-) TimerEvent: {}
+[0.401560] (-) TimerEvent: {}
+[0.502190] (-) TimerEvent: {}
+[0.573268] (kari_drone_system) JobProgress: {'identifier': 'kari_drone_system', 'progress': 'cmake'}
+[0.575809] (kari_drone_system) JobProgress: {'identifier': 'kari_drone_system', 'progress': 'build'}
+[0.577806] (kari_drone_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2mc/ros2_link_ws/build/kari_drone_system', '--', '-j6', '-l6'], 'cwd': '/home/ros2mc/ros2_link_ws/build/kari_drone_system', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ros2mc'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/'), ('HOME', '/home/ros2mc'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2mc'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ros2mc/.nvm/versions/node/v22.11.0/bin'), ('NVM_INC', '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17246'), ('NVM_DIR', '/home/ros2mc/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2mc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2mc'), ('JOURNAL_STREAM', '7:42825'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2mc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/2535,unix/ros2:/tmp/.ICE-unix/2535'), ('INVOCATION_ID', 'a83c0a6e0c5c4fe5b8098d71995007cc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-166a1ed35c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PX4_HOME_LAT', '37.000'), ('GDMSESSION', 'ubuntu'), ('PX4_HOME_ALT', '0.000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2mc/ros2_link_ws/build/kari_drone_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('PX4_HOME_LON', '127.000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/kari-drone-2:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble')]), 'shell': False}
+[0.587138] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.588848] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.589367] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2mc/ros2_link_ws/build/px4_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ros2mc/ros2_link_ws/build/px4_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ros2mc'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/'), ('HOME', '/home/ros2mc'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2mc'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ros2mc/.nvm/versions/node/v22.11.0/bin'), ('NVM_INC', '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17246'), ('NVM_DIR', '/home/ros2mc/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2mc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2mc'), ('JOURNAL_STREAM', '7:42825'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2mc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/2535,unix/ros2:/tmp/.ICE-unix/2535'), ('INVOCATION_ID', 'a83c0a6e0c5c4fe5b8098d71995007cc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-166a1ed35c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PX4_HOME_LAT', '37.000'), ('GDMSESSION', 'ubuntu'), ('PX4_HOME_ALT', '0.000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2mc/ros2_link_ws/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('PX4_HOME_LON', '127.000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/kari-drone-2:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble')]), 'shell': False}
+[0.602298] (-) TimerEvent: {}
+[0.702878] (-) TimerEvent: {}
+[0.803493] (-) TimerEvent: {}
+[0.904114] (-) TimerEvent: {}
+[1.004763] (-) TimerEvent: {}
+[1.105489] (-) TimerEvent: {}
+[1.138808] (kari_drone_system) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/ros2mc/ros2_link_ws/build/kari_drone_system/CMakeCache.txt is different than the directory /home/jetson/ros2_link_ws/build/kari_drone_system where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.139974] (kari_drone_system) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/jetson/ros2_link_ws/src/kari_drone_system" does not exist.\n'}
+[1.140403] (kari_drone_system) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.141165] (kari_drone_system) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.141591] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/ros2mc/ros2_link_ws/build/px4_msgs/CMakeCache.txt is different than the directory /home/jetson/ros2_link_ws/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.142294] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/jetson/ros2_link_ws/src/px4_msgs" does not exist.\n'}
+[1.143058] (px4_msgs) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.143291] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:40275: cmake_check_build_system] Error 1\n'}
+[1.143824] (kari_drone_system) CommandEnded: {'returncode': 2}
+[1.145449] (px4_msgs) CommandEnded: {'returncode': 2}
+[1.205626] (-) TimerEvent: {}
+[1.306293] (-) TimerEvent: {}
+[1.407093] (-) TimerEvent: {}
+[1.484638] (kari_drone_system) JobEnded: {'identifier': 'kari_drone_system', 'rc': 2}
+[1.507285] (-) TimerEvent: {}
+[1.607998] (-) TimerEvent: {}
+[1.708679] (-) TimerEvent: {}
+[1.809483] (-) TimerEvent: {}
+[1.910137] (-) TimerEvent: {}
+[2.010721] (-) TimerEvent: {}
+[2.063368] (run_uav) JobEnded: {'identifier': 'run_uav', 'rc': 'SIGINT'}
+[2.065522] (kari_UAV_siyi) JobEnded: {'identifier': 'kari_UAV_siyi', 'rc': 'SIGINT'}
+[2.110924] (-) TimerEvent: {}
+[2.211672] (-) TimerEvent: {}
+[2.312314] (-) TimerEvent: {}
+[2.413062] (-) TimerEvent: {}
+[2.513838] (-) TimerEvent: {}
+[2.614654] (-) TimerEvent: {}
+[2.715452] (-) TimerEvent: {}
+[2.816080] (-) TimerEvent: {}
+[2.916710] (-) TimerEvent: {}
+[3.017576] (-) TimerEvent: {}
+[3.118509] (-) TimerEvent: {}
+[3.219095] (-) TimerEvent: {}
+[3.319875] (-) TimerEvent: {}
+[3.420640] (-) TimerEvent: {}
+[3.521214] (-) TimerEvent: {}
+[3.621841] (-) TimerEvent: {}
+[3.723496] (-) TimerEvent: {}
+[3.824266] (-) TimerEvent: {}
+[3.924893] (-) TimerEvent: {}
+[4.025707] (-) TimerEvent: {}
+[4.126308] (-) TimerEvent: {}
+[4.227068] (-) TimerEvent: {}
+[4.327837] (-) TimerEvent: {}
+[4.428625] (-) TimerEvent: {}
+[4.529328] (-) TimerEvent: {}
+[4.630049] (-) TimerEvent: {}
+[4.730722] (-) TimerEvent: {}
+[4.831335] (-) TimerEvent: {}
+[4.931914] (-) TimerEvent: {}
+[5.032779] (-) TimerEvent: {}
+[5.133627] (-) TimerEvent: {}
+[5.234241] (-) TimerEvent: {}
+[5.334963] (-) TimerEvent: {}
+[5.435625] (-) TimerEvent: {}
+[5.536471] (-) TimerEvent: {}
+[5.637179] (-) TimerEvent: {}
+[5.737894] (-) TimerEvent: {}
+[5.838624] (-) TimerEvent: {}
+[5.939738] (-) TimerEvent: {}
+[6.040781] (-) TimerEvent: {}
+[6.141449] (-) TimerEvent: {}
+[6.242161] (-) TimerEvent: {}
+[6.342750] (-) TimerEvent: {}
+[6.443462] (-) TimerEvent: {}
+[6.544211] (-) TimerEvent: {}
+[6.645020] (-) TimerEvent: {}
+[6.746164] (-) TimerEvent: {}
+[6.847037] (-) TimerEvent: {}
+[6.948152] (-) TimerEvent: {}
+[7.048889] (-) TimerEvent: {}
+[7.149740] (-) TimerEvent: {}
+[7.250364] (-) TimerEvent: {}
+[7.337264] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[7.340489] (-) EventReactorShutdown: {}

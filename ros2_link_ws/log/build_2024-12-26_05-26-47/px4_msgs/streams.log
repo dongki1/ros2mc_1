@@ -1,0 +1,6 @@
+[0.611s] Invoking command in '/home/ros2mc/ros2_link_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_link_ws/build/px4_msgs -- -j6 -l6
+[0.634s] [0mCMake Error: The current CMakeCache.txt directory /home/ros2mc/ros2_link_ws/build/px4_msgs/CMakeCache.txt is different than the directory /home/jetson/ros2_link_ws/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.249s] [0mCMake Error: The source directory "/home/jetson/ros2_link_ws/src/px4_msgs" does not exist.
+[1.249s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.251s] gmake: *** [Makefile:40275: cmake_check_build_system] Error 1
+[1.261s] Invoked command in '/home/ros2mc/ros2_link_ws/build/px4_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_link_ws/build/px4_msgs -- -j6 -l6

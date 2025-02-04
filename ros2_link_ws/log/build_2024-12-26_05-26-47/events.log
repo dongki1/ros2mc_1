@@ -1,0 +1,751 @@
+[0.000000] (-) TimerEvent: {}
+[0.000450] (kari_UAV_siyi) JobQueued: {'identifier': 'kari_UAV_siyi', 'dependencies': OrderedDict()}
+[0.000753] (kari_drone_system) JobQueued: {'identifier': 'kari_drone_system', 'dependencies': OrderedDict()}
+[0.001355] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001655] (run_uav) JobQueued: {'identifier': 'run_uav', 'dependencies': OrderedDict()}
+[0.001962] (kari_UAV_siyi) JobStarted: {'identifier': 'kari_UAV_siyi'}
+[0.035393] (kari_drone_system) JobStarted: {'identifier': 'kari_drone_system'}
+[0.043794] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.053667] (run_uav) JobStarted: {'identifier': 'run_uav'}
+[0.099393] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.300763] (-) TimerEvent: {}
+[0.401447] (-) TimerEvent: {}
+[0.502101] (-) TimerEvent: {}
+[0.602977] (-) TimerEvent: {}
+[0.640036] (kari_drone_system) JobProgress: {'identifier': 'kari_drone_system', 'progress': 'cmake'}
+[0.640509] (kari_drone_system) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2mc/ros2_link_ws/src/kari_drone_system', '-DCMAKE_INSTALL_PREFIX=/home/ros2mc/ros2_link_ws/install/kari_drone_system'], 'cwd': '/home/ros2mc/ros2_link_ws/build/kari_drone_system', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ros2mc'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/'), ('HOME', '/home/ros2mc'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2mc/ros2_link_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ros2mc/.nvm/versions/node/v22.11.0/bin'), ('NVM_INC', '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2246'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5929'), ('NVM_DIR', '/home/ros2mc/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2mc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2mc'), ('JOURNAL_STREAM', '7:43609'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2mc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/2515,unix/ros2:/tmp/.ICE-unix/2515'), ('INVOCATION_ID', '5938186b53904226b42c4814151f483b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8897224792.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PX4_HOME_LAT', '37.000'), ('GDMSESSION', 'ubuntu'), ('PX4_HOME_ALT', '0.000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2mc/ros2_link_ws/build/kari_drone_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('PX4_HOME_LON', '127.000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble')]), 'shell': False}
+[0.647871] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.649185] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.650496] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2mc/ros2_link_ws/build/px4_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ros2mc/ros2_link_ws/build/px4_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ros2mc'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/'), ('HOME', '/home/ros2mc'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2mc/ros2_link_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ros2mc/.nvm/versions/node/v22.11.0/bin'), ('NVM_INC', '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2246'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5929'), ('NVM_DIR', '/home/ros2mc/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2mc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2mc'), ('JOURNAL_STREAM', '7:43609'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2mc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/2515,unix/ros2:/tmp/.ICE-unix/2515'), ('INVOCATION_ID', '5938186b53904226b42c4814151f483b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8897224792.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('PX4_HOME_LAT', '37.000'), ('GDMSESSION', 'ubuntu'), ('PX4_HOME_ALT', '0.000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2mc/ros2_link_ws/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('PX4_HOME_LON', '127.000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble')]), 'shell': False}
+[0.677973] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/ros2mc/ros2_link_ws/build/px4_msgs/CMakeCache.txt is different than the directory /home/jetson/ros2_link_ws/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.703158] (-) TimerEvent: {}
+[0.803812] (-) TimerEvent: {}
+[0.841943] (kari_drone_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.904004] (-) TimerEvent: {}
+[1.004694] (-) TimerEvent: {}
+[1.033948] (kari_drone_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.054205] (kari_drone_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104862] (-) TimerEvent: {}
+[1.205618] (-) TimerEvent: {}
+[1.227027] (kari_drone_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.252406] (kari_drone_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.253404] (kari_drone_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.253660] (kari_drone_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.259371] (kari_drone_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.292638] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/jetson/ros2_link_ws/src/px4_msgs" does not exist.\n'}
+[1.293211] (px4_msgs) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.295372] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:40275: cmake_check_build_system] Error 1\n'}
+[1.304438] (px4_msgs) CommandEnded: {'returncode': 2}
+[1.305689] (-) TimerEvent: {}
+[1.406417] (-) TimerEvent: {}
+[1.481329] (kari_drone_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.497058] (kari_drone_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.498506] (kari_drone_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.500165] (kari_drone_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.506559] (-) TimerEvent: {}
+[1.507203] (kari_drone_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.606746] (-) TimerEvent: {}
+[1.707593] (-) TimerEvent: {}
+[1.810042] (-) TimerEvent: {}
+[1.891444] (kari_drone_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.910196] (-) TimerEvent: {}
+[2.011763] (-) TimerEvent: {}
+[2.112380] (-) TimerEvent: {}
+[2.180187] (kari_drone_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.212546] (-) TimerEvent: {}
+[2.313685] (-) TimerEvent: {}
+[2.368824] (run_uav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/run_uav', 'build', '--build-base', '/home/ros2mc/ros2_link_ws/build/run_uav/build', 'install', '--record', '/home/ros2mc/ros2_link_ws/build/run_uav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2mc/ros2_link_ws/src/run_uav', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'ros2mc', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/', 'HOME': '/home/ros2mc', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ros2mc/ros2_link_ws/src', 'TERM_PROGRAM_VERSION': '1.85.2', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/ros2mc/.nvm/versions/node/v22.11.0/bin', 'NVM_INC': '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2246', 'SYSTEMD_EXEC_PID': '2540', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5929', 'NVM_DIR': '/home/ros2mc/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ros2mc/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ros2mc', 'JOURNAL_STREAM': '7:43609', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2mc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/2515,unix/ros2:/tmp/.ICE-unix/2515', 'INVOCATION_ID': '5938186b53904226b42c4814151f483b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8897224792.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'PX4_HOME_LAT': '37.000', 'GDMSESSION': 'ubuntu', 'PX4_HOME_ALT': '0.000', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2mc/ros2_link_ws/build/run_uav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2mc/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'PX4_HOME_LON': '127.000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2'}, 'shell': False}
+[2.377006] (kari_UAV_siyi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kari_UAV_siyi', 'build', '--build-base', '/home/ros2mc/ros2_link_ws/build/kari_UAV_siyi/build', 'install', '--record', '/home/ros2mc/ros2_link_ws/build/kari_UAV_siyi/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2mc/ros2_link_ws/src/kari_UAV_siyi', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'ros2mc', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2mc/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/:/usr/local/lib/', 'HOME': '/home/ros2mc', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ros2mc/ros2_link_ws/src', 'TERM_PROGRAM_VERSION': '1.85.2', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/ros2mc/.nvm/versions/node/v22.11.0/bin', 'NVM_INC': '/home/ros2mc/.nvm/versions/node/v22.11.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2246', 'SYSTEMD_EXEC_PID': '2540', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5929', 'NVM_DIR': '/home/ros2mc/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ros2mc/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ros2mc', 'JOURNAL_STREAM': '7:43609', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2mc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/home/ros2mc/.nvm/versions/node/v22.11.0/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ros2mc/.local/bin:/home/ros2mc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/2515,unix/ros2:/tmp/.ICE-unix/2515', 'INVOCATION_ID': '5938186b53904226b42c4814151f483b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8897224792.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'PX4_HOME_LAT': '37.000', 'GDMSESSION': 'ubuntu', 'PX4_HOME_ALT': '0.000', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2mc/ros2_link_ws/build/kari_UAV_siyi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2mc/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/home/ros2mc/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'PX4_HOME_LON': '127.000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2mc/ros2_ws/install/kari_drone_system:/home/ros2mc/ros2_ws/install/px4_msgs:/home/ros2mc/ros2_ws/install/kari-drone-system:/home/ros2mc/ros2_ws/install/kari-drone-2'}, 'shell': False}
+[2.413839] (-) TimerEvent: {}
+[2.515067] (-) TimerEvent: {}
+[2.619056] (-) TimerEvent: {}
+[2.720697] (-) TimerEvent: {}
+[2.822241] (-) TimerEvent: {}
+[2.888162] (run_uav) StdoutLine: {'line': b'running egg_info\n'}
+[2.890647] (run_uav) StdoutLine: {'line': b'writing ../../build/run_uav/run_uav.egg-info/PKG-INFO\n'}
+[2.892228] (run_uav) StdoutLine: {'line': b'writing dependency_links to ../../build/run_uav/run_uav.egg-info/dependency_links.txt\n'}
+[2.893049] (run_uav) StdoutLine: {'line': b'writing entry points to ../../build/run_uav/run_uav.egg-info/entry_points.txt\n'}
+[2.893787] (run_uav) StdoutLine: {'line': b'writing requirements to ../../build/run_uav/run_uav.egg-info/requires.txt\n'}
+[2.894182] (run_uav) StdoutLine: {'line': b'writing top-level names to ../../build/run_uav/run_uav.egg-info/top_level.txt\n'}
+[2.898888] (run_uav) StdoutLine: {'line': b"reading manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'\n"}
+[2.900677] (run_uav) StdoutLine: {'line': b"writing manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'\n"}
+[2.901216] (run_uav) StdoutLine: {'line': b'running build\n'}
+[2.901643] (run_uav) StdoutLine: {'line': b'running build_py\n'}
+[2.902685] (run_uav) StdoutLine: {'line': b'running install\n'}
+[2.903640] (run_uav) StdoutLine: {'line': b'running install_lib\n'}
+[2.906517] (run_uav) StdoutLine: {'line': b'running install_data\n'}
+[2.907031] (run_uav) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.912260] (run_uav) StdoutLine: {'line': b"removing '/home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.912991] (run_uav) StdoutLine: {'line': b'Copying ../../build/run_uav/run_uav.egg-info to /home/ros2mc/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info\n'}
+[2.914989] (run_uav) StdoutLine: {'line': b'running install_scripts\n'}
+[2.922353] (-) TimerEvent: {}
+[2.963124] (kari_UAV_siyi) StdoutLine: {'line': b'running egg_info\n'}
+[2.965695] (kari_UAV_siyi) StdoutLine: {'line': b'writing ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/PKG-INFO\n'}
+[2.966372] (kari_UAV_siyi) StdoutLine: {'line': b'writing dependency_links to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/dependency_links.txt\n'}
+[2.966983] (kari_UAV_siyi) StdoutLine: {'line': b'writing entry points to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/entry_points.txt\n'}
+[2.967473] (kari_UAV_siyi) StdoutLine: {'line': b'writing requirements to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/requires.txt\n'}
+[2.968538] (kari_UAV_siyi) StdoutLine: {'line': b'writing top-level names to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/top_level.txt\n'}
+[2.975235] (run_uav) StdoutLine: {'line': b"writing list of installed files to '/home/ros2mc/ros2_link_ws/build/run_uav/install.log'\n"}
+[2.975947] (kari_UAV_siyi) StdoutLine: {'line': b"reading manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'\n"}
+[2.979145] (kari_UAV_siyi) StdoutLine: {'line': b"writing manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'\n"}
+[2.979822] (kari_UAV_siyi) StdoutLine: {'line': b'running build\n'}
+[2.980466] (kari_UAV_siyi) StdoutLine: {'line': b'running build_py\n'}
+[2.985996] (kari_UAV_siyi) StdoutLine: {'line': b'running install\n'}
+[2.988580] (kari_UAV_siyi) StdoutLine: {'line': b'running install_lib\n'}
+[2.994908] (kari_UAV_siyi) StdoutLine: {'line': b'running install_data\n'}
+[2.996002] (kari_UAV_siyi) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.002450] (kari_UAV_siyi) StdoutLine: {'line': b"removing '/home/ros2mc/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.004318] (kari_UAV_siyi) StdoutLine: {'line': b'Copying ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info to /home/ros2mc/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info\n'}
+[3.006588] (kari_UAV_siyi) StdoutLine: {'line': b'running install_scripts\n'}
+[3.022536] (-) TimerEvent: {}
+[3.065412] (kari_UAV_siyi) StdoutLine: {'line': b'Installing siyi_control_node script to /home/ros2mc/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi\n'}
+[3.066820] (kari_UAV_siyi) StdoutLine: {'line': b'Installing siyi_stream_node script to /home/ros2mc/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi\n'}
+[3.069629] (run_uav) CommandEnded: {'returncode': 0}
+[3.070590] (kari_UAV_siyi) StdoutLine: {'line': b"writing list of installed files to '/home/ros2mc/ros2_link_ws/build/kari_UAV_siyi/install.log'\n"}
+[3.107099] (run_uav) JobEnded: {'identifier': 'run_uav', 'rc': 0}
+[3.122681] (-) TimerEvent: {}
+[3.173339] (kari_UAV_siyi) CommandEnded: {'returncode': 0}
+[3.199976] (kari_UAV_siyi) JobEnded: {'identifier': 'kari_UAV_siyi', 'rc': 0}
+[3.222864] (-) TimerEvent: {}
+[3.323489] (-) TimerEvent: {}
+[3.424257] (-) TimerEvent: {}
+[3.525165] (-) TimerEvent: {}
+[3.626896] (-) TimerEvent: {}
+[3.727793] (-) TimerEvent: {}
+[3.828526] (-) TimerEvent: {}
+[3.929502] (-) TimerEvent: {}
+[4.030320] (-) TimerEvent: {}
+[4.130909] (-) TimerEvent: {}
+[4.231679] (-) TimerEvent: {}
+[4.332242] (-) TimerEvent: {}
+[4.432830] (-) TimerEvent: {}
+[4.539488] (-) TimerEvent: {}
+[4.640104] (-) TimerEvent: {}
+[4.740854] (-) TimerEvent: {}
+[4.841506] (-) TimerEvent: {}
+[4.942251] (-) TimerEvent: {}
+[5.043127] (-) TimerEvent: {}
+[5.144144] (-) TimerEvent: {}
+[5.244879] (-) TimerEvent: {}
+[5.345810] (-) TimerEvent: {}
+[5.446442] (-) TimerEvent: {}
+[5.547003] (-) TimerEvent: {}
+[5.647607] (-) TimerEvent: {}
+[5.748233] (-) TimerEvent: {}
+[5.848873] (-) TimerEvent: {}
+[5.949523] (-) TimerEvent: {}
+[6.050122] (-) TimerEvent: {}
+[6.150946] (-) TimerEvent: {}
+[6.252118] (-) TimerEvent: {}
+[6.352769] (-) TimerEvent: {}
+[6.453437] (-) TimerEvent: {}
+[6.554081] (-) TimerEvent: {}
+[6.661808] (-) TimerEvent: {}
+[6.762474] (-) TimerEvent: {}
+[6.863088] (-) TimerEvent: {}
+[6.963715] (-) TimerEvent: {}
+[7.064551] (-) TimerEvent: {}
+[7.165291] (-) TimerEvent: {}
+[7.266364] (-) TimerEvent: {}
+[7.366981] (-) TimerEvent: {}
+[7.467565] (-) TimerEvent: {}
+[7.568374] (-) TimerEvent: {}
+[7.669080] (-) TimerEvent: {}
+[7.769757] (-) TimerEvent: {}
+[7.870352] (-) TimerEvent: {}
+[7.971061] (-) TimerEvent: {}
+[8.071746] (-) TimerEvent: {}
+[8.172602] (-) TimerEvent: {}
+[8.273570] (-) TimerEvent: {}
+[8.374327] (-) TimerEvent: {}
+[8.475144] (-) TimerEvent: {}
+[8.576109] (-) TimerEvent: {}
+[8.676820] (-) TimerEvent: {}
+[8.778177] (-) TimerEvent: {}
+[8.878788] (-) TimerEvent: {}
+[8.963703] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 2}
+[8.979016] (-) TimerEvent: {}
+[9.079673] (-) TimerEvent: {}
+[9.180344] (-) TimerEvent: {}
+[9.281057] (-) TimerEvent: {}
+[9.381722] (-) TimerEvent: {}
+[9.482409] (-) TimerEvent: {}
+[9.583156] (-) TimerEvent: {}
+[9.683875] (-) TimerEvent: {}
+[9.784557] (-) TimerEvent: {}
+[9.885263] (-) TimerEvent: {}
+[9.985941] (-) TimerEvent: {}
+[10.086623] (-) TimerEvent: {}
+[10.187318] (-) TimerEvent: {}
+[10.288036] (-) TimerEvent: {}
+[10.388743] (-) TimerEvent: {}
+[10.489600] (-) TimerEvent: {}
+[10.590381] (-) TimerEvent: {}
+[10.691255] (-) TimerEvent: {}
+[10.791952] (-) TimerEvent: {}
+[10.892626] (-) TimerEvent: {}
+[10.993324] (-) TimerEvent: {}
+[11.094004] (-) TimerEvent: {}
+[11.194746] (-) TimerEvent: {}
+[11.295444] (-) TimerEvent: {}
+[11.396155] (-) TimerEvent: {}
+[11.496831] (-) TimerEvent: {}
+[11.597610] (-) TimerEvent: {}
+[11.698431] (-) TimerEvent: {}
+[11.799117] (-) TimerEvent: {}
+[11.899786] (-) TimerEvent: {}
+[12.000449] (-) TimerEvent: {}
+[12.101123] (-) TimerEvent: {}
+[12.201839] (-) TimerEvent: {}
+[12.302507] (-) TimerEvent: {}
+[12.403172] (-) TimerEvent: {}
+[12.503878] (-) TimerEvent: {}
+[12.604673] (-) TimerEvent: {}
+[12.705382] (-) TimerEvent: {}
+[12.806017] (-) TimerEvent: {}
+[12.906693] (-) TimerEvent: {}
+[13.007483] (-) TimerEvent: {}
+[13.108280] (-) TimerEvent: {}
+[13.208959] (-) TimerEvent: {}
+[13.309663] (-) TimerEvent: {}
+[13.410313] (-) TimerEvent: {}
+[13.511019] (-) TimerEvent: {}
+[13.611783] (-) TimerEvent: {}
+[13.712468] (-) TimerEvent: {}
+[13.813296] (-) TimerEvent: {}
+[13.914089] (-) TimerEvent: {}
+[14.015004] (-) TimerEvent: {}
+[14.115688] (-) TimerEvent: {}
+[14.216417] (-) TimerEvent: {}
+[14.317099] (-) TimerEvent: {}
+[14.417780] (-) TimerEvent: {}
+[14.518465] (-) TimerEvent: {}
+[14.619182] (-) TimerEvent: {}
+[14.719884] (-) TimerEvent: {}
+[14.820624] (-) TimerEvent: {}
+[14.921299] (-) TimerEvent: {}
+[15.021989] (-) TimerEvent: {}
+[15.122681] (-) TimerEvent: {}
+[15.223364] (-) TimerEvent: {}
+[15.324182] (-) TimerEvent: {}
+[15.424864] (-) TimerEvent: {}
+[15.525543] (-) TimerEvent: {}
+[15.626281] (-) TimerEvent: {}
+[15.727099] (-) TimerEvent: {}
+[15.827842] (-) TimerEvent: {}
+[15.928712] (-) TimerEvent: {}
+[16.029506] (-) TimerEvent: {}
+[16.130175] (-) TimerEvent: {}
+[16.230888] (-) TimerEvent: {}
+[16.331554] (-) TimerEvent: {}
+[16.432332] (-) TimerEvent: {}
+[16.533094] (-) TimerEvent: {}
+[16.633787] (-) TimerEvent: {}
+[16.739164] (-) TimerEvent: {}
+[16.839901] (-) TimerEvent: {}
+[16.940644] (-) TimerEvent: {}
+[17.041313] (-) TimerEvent: {}
+[17.142001] (-) TimerEvent: {}
+[17.242687] (-) TimerEvent: {}
+[17.343347] (-) TimerEvent: {}
+[17.444061] (-) TimerEvent: {}
+[17.544889] (-) TimerEvent: {}
+[17.645625] (-) TimerEvent: {}
+[17.746313] (-) TimerEvent: {}
+[17.847068] (-) TimerEvent: {}
+[17.947903] (-) TimerEvent: {}
+[18.048592] (-) TimerEvent: {}
+[18.149381] (-) TimerEvent: {}
+[18.250058] (-) TimerEvent: {}
+[18.350852] (-) TimerEvent: {}
+[18.451502] (-) TimerEvent: {}
+[18.552164] (-) TimerEvent: {}
+[18.652877] (-) TimerEvent: {}
+[18.754090] (-) TimerEvent: {}
+[18.854784] (-) TimerEvent: {}
+[18.955506] (-) TimerEvent: {}
+[19.056898] (-) TimerEvent: {}
+[19.157588] (-) TimerEvent: {}
+[19.258345] (-) TimerEvent: {}
+[19.359879] (-) TimerEvent: {}
+[19.460560] (-) TimerEvent: {}
+[19.561269] (-) TimerEvent: {}
+[19.661962] (-) TimerEvent: {}
+[19.762691] (-) TimerEvent: {}
+[19.863392] (-) TimerEvent: {}
+[19.964063] (-) TimerEvent: {}
+[20.064759] (-) TimerEvent: {}
+[20.165530] (-) TimerEvent: {}
+[20.266292] (-) TimerEvent: {}
+[20.366957] (-) TimerEvent: {}
+[20.467663] (-) TimerEvent: {}
+[20.569111] (-) TimerEvent: {}
+[20.669814] (-) TimerEvent: {}
+[20.770634] (-) TimerEvent: {}
+[20.871458] (-) TimerEvent: {}
+[20.972207] (-) TimerEvent: {}
+[21.073099] (-) TimerEvent: {}
+[21.173785] (-) TimerEvent: {}
+[21.274500] (-) TimerEvent: {}
+[21.375186] (-) TimerEvent: {}
+[21.475906] (-) TimerEvent: {}
+[21.576632] (-) TimerEvent: {}
+[21.677349] (-) TimerEvent: {}
+[21.778022] (-) TimerEvent: {}
+[21.878689] (-) TimerEvent: {}
+[21.979376] (-) TimerEvent: {}
+[22.080046] (-) TimerEvent: {}
+[22.180733] (-) TimerEvent: {}
+[22.281467] (-) TimerEvent: {}
+[22.382116] (-) TimerEvent: {}
+[22.482774] (-) TimerEvent: {}
+[22.583623] (-) TimerEvent: {}
+[22.684358] (-) TimerEvent: {}
+[22.785083] (-) TimerEvent: {}
+[22.885745] (-) TimerEvent: {}
+[22.986429] (-) TimerEvent: {}
+[23.087139] (-) TimerEvent: {}
+[23.187841] (-) TimerEvent: {}
+[23.288537] (-) TimerEvent: {}
+[23.389293] (-) TimerEvent: {}
+[23.490083] (-) TimerEvent: {}
+[23.590800] (-) TimerEvent: {}
+[23.691472] (-) TimerEvent: {}
+[23.792143] (-) TimerEvent: {}
+[23.892885] (-) TimerEvent: {}
+[23.993814] (-) TimerEvent: {}
+[24.094546] (-) TimerEvent: {}
+[24.195263] (-) TimerEvent: {}
+[24.295957] (-) TimerEvent: {}
+[24.396732] (-) TimerEvent: {}
+[24.497430] (-) TimerEvent: {}
+[24.598192] (-) TimerEvent: {}
+[24.698936] (-) TimerEvent: {}
+[24.799604] (-) TimerEvent: {}
+[24.900281] (-) TimerEvent: {}
+[25.000995] (-) TimerEvent: {}
+[25.101665] (-) TimerEvent: {}
+[25.202412] (-) TimerEvent: {}
+[25.303334] (-) TimerEvent: {}
+[25.404076] (-) TimerEvent: {}
+[25.504852] (-) TimerEvent: {}
+[25.605530] (-) TimerEvent: {}
+[25.706219] (-) TimerEvent: {}
+[25.806923] (-) TimerEvent: {}
+[25.907672] (-) TimerEvent: {}
+[26.008372] (-) TimerEvent: {}
+[26.109084] (-) TimerEvent: {}
+[26.209784] (-) TimerEvent: {}
+[26.310524] (-) TimerEvent: {}
+[26.411232] (-) TimerEvent: {}
+[26.511925] (-) TimerEvent: {}
+[26.612679] (-) TimerEvent: {}
+[26.713405] (-) TimerEvent: {}
+[26.814247] (-) TimerEvent: {}
+[26.914939] (-) TimerEvent: {}
+[27.015635] (-) TimerEvent: {}
+[27.116355] (-) TimerEvent: {}
+[27.217076] (-) TimerEvent: {}
+[27.317781] (-) TimerEvent: {}
+[27.418448] (-) TimerEvent: {}
+[27.519099] (-) TimerEvent: {}
+[27.619774] (-) TimerEvent: {}
+[27.720442] (-) TimerEvent: {}
+[27.821092] (-) TimerEvent: {}
+[27.921774] (-) TimerEvent: {}
+[28.022470] (-) TimerEvent: {}
+[28.123146] (-) TimerEvent: {}
+[28.223828] (-) TimerEvent: {}
+[28.324541] (-) TimerEvent: {}
+[28.425236] (-) TimerEvent: {}
+[28.526092] (-) TimerEvent: {}
+[28.626840] (-) TimerEvent: {}
+[28.727560] (-) TimerEvent: {}
+[28.828288] (-) TimerEvent: {}
+[28.929025] (-) TimerEvent: {}
+[29.029732] (-) TimerEvent: {}
+[29.130420] (-) TimerEvent: {}
+[29.231150] (-) TimerEvent: {}
+[29.331869] (-) TimerEvent: {}
+[29.432550] (-) TimerEvent: {}
+[29.533227] (-) TimerEvent: {}
+[29.535295] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[29.542757] (kari_drone_system) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[29.543066] (kari_drone_system) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[29.633442] (-) TimerEvent: {}
+[29.734281] (-) TimerEvent: {}
+[29.835003] (-) TimerEvent: {}
+[29.935669] (-) TimerEvent: {}
+[30.036370] (-) TimerEvent: {}
+[30.137178] (-) TimerEvent: {}
+[30.237860] (-) TimerEvent: {}
+[30.338617] (-) TimerEvent: {}
+[30.439362] (-) TimerEvent: {}
+[30.540113] (-) TimerEvent: {}
+[30.640782] (-) TimerEvent: {}
+[30.741501] (-) TimerEvent: {}
+[30.842203] (-) TimerEvent: {}
+[30.942957] (-) TimerEvent: {}
+[31.043699] (-) TimerEvent: {}
+[31.144440] (-) TimerEvent: {}
+[31.245105] (-) TimerEvent: {}
+[31.345752] (-) TimerEvent: {}
+[31.446417] (-) TimerEvent: {}
+[31.547188] (-) TimerEvent: {}
+[31.647875] (-) TimerEvent: {}
+[31.748652] (-) TimerEvent: {}
+[31.849372] (-) TimerEvent: {}
+[31.950071] (-) TimerEvent: {}
+[32.050746] (-) TimerEvent: {}
+[32.151462] (-) TimerEvent: {}
+[32.252179] (-) TimerEvent: {}
+[32.352982] (-) TimerEvent: {}
+[32.453682] (-) TimerEvent: {}
+[32.554352] (-) TimerEvent: {}
+[32.589709] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[32.654538] (-) TimerEvent: {}
+[32.755210] (-) TimerEvent: {}
+[32.855929] (-) TimerEvent: {}
+[32.956609] (-) TimerEvent: {}
+[33.057521] (-) TimerEvent: {}
+[33.158210] (-) TimerEvent: {}
+[33.258920] (-) TimerEvent: {}
+[33.359590] (-) TimerEvent: {}
+[33.460241] (-) TimerEvent: {}
+[33.560900] (-) TimerEvent: {}
+[33.662112] (-) TimerEvent: {}
+[33.762790] (-) TimerEvent: {}
+[33.863556] (-) TimerEvent: {}
+[33.964279] (-) TimerEvent: {}
+[34.065096] (-) TimerEvent: {}
+[34.165760] (-) TimerEvent: {}
+[34.266435] (-) TimerEvent: {}
+[34.367099] (-) TimerEvent: {}
+[34.467777] (-) TimerEvent: {}
+[34.568450] (-) TimerEvent: {}
+[34.669113] (-) TimerEvent: {}
+[34.769780] (-) TimerEvent: {}
+[34.870522] (-) TimerEvent: {}
+[34.971378] (-) TimerEvent: {}
+[35.072230] (-) TimerEvent: {}
+[35.172946] (-) TimerEvent: {}
+[35.273619] (-) TimerEvent: {}
+[35.374358] (-) TimerEvent: {}
+[35.474995] (-) TimerEvent: {}
+[35.575625] (-) TimerEvent: {}
+[35.676322] (-) TimerEvent: {}
+[35.777024] (-) TimerEvent: {}
+[35.877728] (-) TimerEvent: {}
+[35.978391] (-) TimerEvent: {}
+[36.079079] (-) TimerEvent: {}
+[36.179753] (-) TimerEvent: {}
+[36.280477] (-) TimerEvent: {}
+[36.381277] (-) TimerEvent: {}
+[36.481922] (-) TimerEvent: {}
+[36.582570] (-) TimerEvent: {}
+[36.683301] (-) TimerEvent: {}
+[36.784107] (-) TimerEvent: {}
+[36.884781] (-) TimerEvent: {}
+[36.985482] (-) TimerEvent: {}
+[37.086226] (-) TimerEvent: {}
+[37.186906] (-) TimerEvent: {}
+[37.287584] (-) TimerEvent: {}
+[37.388250] (-) TimerEvent: {}
+[37.488899] (-) TimerEvent: {}
+[37.589605] (-) TimerEvent: {}
+[37.690280] (-) TimerEvent: {}
+[37.790945] (-) TimerEvent: {}
+[37.891612] (-) TimerEvent: {}
+[37.992405] (-) TimerEvent: {}
+[38.093121] (-) TimerEvent: {}
+[38.193844] (-) TimerEvent: {}
+[38.294594] (-) TimerEvent: {}
+[38.395342] (-) TimerEvent: {}
+[38.483990] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[38.495507] (-) TimerEvent: {}
+[38.596401] (-) TimerEvent: {}
+[38.697132] (-) TimerEvent: {}
+[38.797862] (-) TimerEvent: {}
+[38.898800] (-) TimerEvent: {}
+[38.999641] (-) TimerEvent: {}
+[39.100337] (-) TimerEvent: {}
+[39.201148] (-) TimerEvent: {}
+[39.301881] (-) TimerEvent: {}
+[39.402567] (-) TimerEvent: {}
+[39.503320] (-) TimerEvent: {}
+[39.604187] (-) TimerEvent: {}
+[39.705072] (-) TimerEvent: {}
+[39.805750] (-) TimerEvent: {}
+[39.906464] (-) TimerEvent: {}
+[40.007276] (-) TimerEvent: {}
+[40.108025] (-) TimerEvent: {}
+[40.208801] (-) TimerEvent: {}
+[40.309566] (-) TimerEvent: {}
+[40.410423] (-) TimerEvent: {}
+[40.511149] (-) TimerEvent: {}
+[40.611836] (-) TimerEvent: {}
+[40.712507] (-) TimerEvent: {}
+[40.813323] (-) TimerEvent: {}
+[40.914099] (-) TimerEvent: {}
+[41.014763] (-) TimerEvent: {}
+[41.115596] (-) TimerEvent: {}
+[41.216353] (-) TimerEvent: {}
+[41.276562] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[41.316539] (-) TimerEvent: {}
+[41.417229] (-) TimerEvent: {}
+[41.517875] (-) TimerEvent: {}
+[41.618537] (-) TimerEvent: {}
+[41.719262] (-) TimerEvent: {}
+[41.820060] (-) TimerEvent: {}
+[41.920735] (-) TimerEvent: {}
+[42.021573] (-) TimerEvent: {}
+[42.122318] (-) TimerEvent: {}
+[42.223001] (-) TimerEvent: {}
+[42.323665] (-) TimerEvent: {}
+[42.424382] (-) TimerEvent: {}
+[42.525099] (-) TimerEvent: {}
+[42.625772] (-) TimerEvent: {}
+[42.726475] (-) TimerEvent: {}
+[42.827103] (-) TimerEvent: {}
+[42.927914] (-) TimerEvent: {}
+[43.028737] (-) TimerEvent: {}
+[43.129633] (-) TimerEvent: {}
+[43.230392] (-) TimerEvent: {}
+[43.331048] (-) TimerEvent: {}
+[43.431746] (-) TimerEvent: {}
+[43.532474] (-) TimerEvent: {}
+[43.633166] (-) TimerEvent: {}
+[43.733840] (-) TimerEvent: {}
+[43.834563] (-) TimerEvent: {}
+[43.935350] (-) TimerEvent: {}
+[44.036090] (-) TimerEvent: {}
+[44.136881] (-) TimerEvent: {}
+[44.237663] (-) TimerEvent: {}
+[44.338373] (-) TimerEvent: {}
+[44.439136] (-) TimerEvent: {}
+[44.540013] (-) TimerEvent: {}
+[44.640879] (-) TimerEvent: {}
+[44.741594] (-) TimerEvent: {}
+[44.842301] (-) TimerEvent: {}
+[44.942971] (-) TimerEvent: {}
+[45.043703] (-) TimerEvent: {}
+[45.144570] (-) TimerEvent: {}
+[45.245429] (-) TimerEvent: {}
+[45.346204] (-) TimerEvent: {}
+[45.447010] (-) TimerEvent: {}
+[45.547693] (-) TimerEvent: {}
+[45.648360] (-) TimerEvent: {}
+[45.749066] (-) TimerEvent: {}
+[45.849739] (-) TimerEvent: {}
+[45.950407] (-) TimerEvent: {}
+[46.051075] (-) TimerEvent: {}
+[46.151750] (-) TimerEvent: {}
+[46.252439] (-) TimerEvent: {}
+[46.353075] (-) TimerEvent: {}
+[46.453758] (-) TimerEvent: {}
+[46.554689] (-) TimerEvent: {}
+[46.655354] (-) TimerEvent: {}
+[46.756032] (-) TimerEvent: {}
+[46.856697] (-) TimerEvent: {}
+[46.957372] (-) TimerEvent: {}
+[47.058036] (-) TimerEvent: {}
+[47.158895] (-) TimerEvent: {}
+[47.259715] (-) TimerEvent: {}
+[47.360506] (-) TimerEvent: {}
+[47.461185] (-) TimerEvent: {}
+[47.561845] (-) TimerEvent: {}
+[47.662517] (-) TimerEvent: {}
+[47.763246] (-) TimerEvent: {}
+[47.863949] (-) TimerEvent: {}
+[47.965320] (-) TimerEvent: {}
+[48.066032] (-) TimerEvent: {}
+[48.166821] (-) TimerEvent: {}
+[48.267648] (-) TimerEvent: {}
+[48.368350] (-) TimerEvent: {}
+[48.469108] (-) TimerEvent: {}
+[48.569772] (-) TimerEvent: {}
+[48.670436] (-) TimerEvent: {}
+[48.771090] (-) TimerEvent: {}
+[48.871754] (-) TimerEvent: {}
+[48.972414] (-) TimerEvent: {}
+[49.073095] (-) TimerEvent: {}
+[49.173747] (-) TimerEvent: {}
+[49.274604] (-) TimerEvent: {}
+[49.375352] (-) TimerEvent: {}
+[49.476040] (-) TimerEvent: {}
+[49.576793] (-) TimerEvent: {}
+[49.677657] (-) TimerEvent: {}
+[49.778382] (-) TimerEvent: {}
+[49.879051] (-) TimerEvent: {}
+[49.979750] (-) TimerEvent: {}
+[50.080436] (-) TimerEvent: {}
+[50.181078] (-) TimerEvent: {}
+[50.281773] (-) TimerEvent: {}
+[50.382575] (-) TimerEvent: {}
+[50.483243] (-) TimerEvent: {}
+[50.584014] (-) TimerEvent: {}
+[50.685055] (-) TimerEvent: {}
+[50.786536] (-) TimerEvent: {}
+[50.887366] (-) TimerEvent: {}
+[50.988037] (-) TimerEvent: {}
+[51.088685] (-) TimerEvent: {}
+[51.189427] (-) TimerEvent: {}
+[51.290165] (-) TimerEvent: {}
+[51.390813] (-) TimerEvent: {}
+[51.491472] (-) TimerEvent: {}
+[51.592163] (-) TimerEvent: {}
+[51.692802] (-) TimerEvent: {}
+[51.793523] (-) TimerEvent: {}
+[51.894275] (-) TimerEvent: {}
+[51.995510] (-) TimerEvent: {}
+[52.096326] (-) TimerEvent: {}
+[52.197055] (-) TimerEvent: {}
+[52.297729] (-) TimerEvent: {}
+[52.398615] (-) TimerEvent: {}
+[52.499422] (-) TimerEvent: {}
+[52.600111] (-) TimerEvent: {}
+[52.700772] (-) TimerEvent: {}
+[52.801530] (-) TimerEvent: {}
+[52.902218] (-) TimerEvent: {}
+[53.002932] (-) TimerEvent: {}
+[53.104529] (-) TimerEvent: {}
+[53.205238] (-) TimerEvent: {}
+[53.305979] (-) TimerEvent: {}
+[53.406636] (-) TimerEvent: {}
+[53.507302] (-) TimerEvent: {}
+[53.607990] (-) TimerEvent: {}
+[53.708672] (-) TimerEvent: {}
+[53.809350] (-) TimerEvent: {}
+[53.910026] (-) TimerEvent: {}
+[54.010706] (-) TimerEvent: {}
+[54.111383] (-) TimerEvent: {}
+[54.212157] (-) TimerEvent: {}
+[54.312914] (-) TimerEvent: {}
+[54.413604] (-) TimerEvent: {}
+[54.514313] (-) TimerEvent: {}
+[54.615015] (-) TimerEvent: {}
+[54.715724] (-) TimerEvent: {}
+[54.816388] (-) TimerEvent: {}
+[54.917116] (-) TimerEvent: {}
+[55.017827] (-) TimerEvent: {}
+[55.118492] (-) TimerEvent: {}
+[55.219154] (-) TimerEvent: {}
+[55.319845] (-) TimerEvent: {}
+[55.420523] (-) TimerEvent: {}
+[55.521198] (-) TimerEvent: {}
+[55.621859] (-) TimerEvent: {}
+[55.722512] (-) TimerEvent: {}
+[55.823205] (-) TimerEvent: {}
+[55.923925] (-) TimerEvent: {}
+[56.024705] (-) TimerEvent: {}
+[56.125507] (-) TimerEvent: {}
+[56.226181] (-) TimerEvent: {}
+[56.326949] (-) TimerEvent: {}
+[56.427661] (-) TimerEvent: {}
+[56.528365] (-) TimerEvent: {}
+[56.629066] (-) TimerEvent: {}
+[56.729756] (-) TimerEvent: {}
+[56.830470] (-) TimerEvent: {}
+[56.931144] (-) TimerEvent: {}
+[57.031904] (-) TimerEvent: {}
+[57.132714] (-) TimerEvent: {}
+[57.233405] (-) TimerEvent: {}
+[57.334101] (-) TimerEvent: {}
+[57.434818] (-) TimerEvent: {}
+[57.535493] (-) TimerEvent: {}
+[57.636182] (-) TimerEvent: {}
+[57.736899] (-) TimerEvent: {}
+[57.837611] (-) TimerEvent: {}
+[57.938323] (-) TimerEvent: {}
+[58.038961] (-) TimerEvent: {}
+[58.139682] (-) TimerEvent: {}
+[58.241084] (-) TimerEvent: {}
+[58.341725] (-) TimerEvent: {}
+[58.442394] (-) TimerEvent: {}
+[58.543049] (-) TimerEvent: {}
+[58.643819] (-) TimerEvent: {}
+[58.744670] (-) TimerEvent: {}
+[58.845364] (-) TimerEvent: {}
+[58.946025] (-) TimerEvent: {}
+[59.046732] (-) TimerEvent: {}
+[59.147525] (-) TimerEvent: {}
+[59.248267] (-) TimerEvent: {}
+[59.349042] (-) TimerEvent: {}
+[59.450375] (-) TimerEvent: {}
+[59.551143] (-) TimerEvent: {}
+[59.651851] (-) TimerEvent: {}
+[59.753376] (-) TimerEvent: {}
+[59.854077] (-) TimerEvent: {}
+[59.954761] (-) TimerEvent: {}
+[60.055499] (-) TimerEvent: {}
+[60.156293] (-) TimerEvent: {}
+[60.257002] (-) TimerEvent: {}
+[60.357673] (-) TimerEvent: {}
+[60.459059] (-) TimerEvent: {}
+[60.559729] (-) TimerEvent: {}
+[60.660456] (-) TimerEvent: {}
+[60.761318] (-) TimerEvent: {}
+[60.862125] (-) TimerEvent: {}
+[60.962792] (-) TimerEvent: {}
+[61.063511] (-) TimerEvent: {}
+[61.164223] (-) TimerEvent: {}
+[61.265359] (-) TimerEvent: {}
+[61.366083] (-) TimerEvent: {}
+[61.466827] (-) TimerEvent: {}
+[61.567521] (-) TimerEvent: {}
+[61.668249] (-) TimerEvent: {}
+[61.768948] (-) TimerEvent: {}
+[61.869637] (-) TimerEvent: {}
+[61.970408] (-) TimerEvent: {}
+[62.071292] (-) TimerEvent: {}
+[62.172093] (-) TimerEvent: {}
+[62.272836] (-) TimerEvent: {}
+[62.373830] (-) TimerEvent: {}
+[62.474480] (-) TimerEvent: {}
+[62.575141] (-) TimerEvent: {}
+[62.675811] (-) TimerEvent: {}
+[62.776460] (-) TimerEvent: {}
+[62.877229] (-) TimerEvent: {}
+[62.978034] (-) TimerEvent: {}
+[63.078769] (-) TimerEvent: {}
+[63.179440] (-) TimerEvent: {}
+[63.280209] (-) TimerEvent: {}
+[63.380874] (-) TimerEvent: {}
+[63.481635] (-) TimerEvent: {}
+[63.539346] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[63.539970] (kari_drone_system) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[63.581810] (-) TimerEvent: {}
+[63.682473] (-) TimerEvent: {}
+[63.783159] (-) TimerEvent: {}
+[63.883888] (-) TimerEvent: {}
+[63.984638] (-) TimerEvent: {}
+[64.085340] (-) TimerEvent: {}
+[64.186130] (-) TimerEvent: {}
+[64.286799] (-) TimerEvent: {}
+[64.387474] (-) TimerEvent: {}
+[64.488145] (-) TimerEvent: {}
+[64.589378] (-) TimerEvent: {}
+[64.690172] (-) TimerEvent: {}
+[64.790928] (-) TimerEvent: {}
+[64.891738] (-) TimerEvent: {}
+[64.992587] (-) TimerEvent: {}
+[65.093286] (-) TimerEvent: {}
+[65.193978] (-) TimerEvent: {}
+[65.294753] (-) TimerEvent: {}
+[65.395911] (-) TimerEvent: {}
+[65.496640] (-) TimerEvent: {}
+[65.597330] (-) TimerEvent: {}
+[65.698003] (-) TimerEvent: {}
+[65.799291] (-) TimerEvent: {}
+[65.900064] (-) TimerEvent: {}
+[66.000813] (-) TimerEvent: {}
+[66.101514] (-) TimerEvent: {}
+[66.202205] (-) TimerEvent: {}
+[66.302903] (-) TimerEvent: {}
+[66.332446] (kari_drone_system) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[66.342900] (kari_drone_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[66.353472] (kari_drone_system) StdoutLine: {'line': b'-- Generating done\n'}
+[66.355264] (kari_drone_system) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2mc/ros2_link_ws/build/kari_drone_system\n'}
+[66.367060] (kari_drone_system) JobEnded: {'identifier': 'kari_drone_system', 'rc': 'SIGINT'}
+[66.378461] (-) EventReactorShutdown: {}

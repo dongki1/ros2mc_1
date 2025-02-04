@@ -1,0 +1,25 @@
+[3.458s] Invoking command in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi': PYTHONPATH=/home/jetson/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build install --record /home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data
+[4.368s] running egg_info
+[4.371s] writing ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/PKG-INFO
+[4.372s] writing dependency_links to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/dependency_links.txt
+[4.373s] writing entry points to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/entry_points.txt
+[4.374s] writing requirements to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/requires.txt
+[4.374s] writing top-level names to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/top_level.txt
+[4.382s] reading manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+[4.382s] writing manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+[4.387s] running build
+[4.388s] running build_py
+[4.388s] copying kari_UAV_siyi/UAV_siyi_stream.py -> /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi
+[4.413s] running install
+[4.413s] running install_lib
+[4.413s] copying /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi/UAV_siyi_stream.py -> /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi
+[4.419s] byte-compiling /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi/UAV_siyi_stream.py to UAV_siyi_stream.cpython-310.pyc
+[4.425s] running install_data
+[4.425s] running install_egg_info
+[4.435s] removing '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info' (and everything under it)
+[4.437s] Copying ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info
+[4.440s] running install_scripts
+[4.470s] Installing siyi_control_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+[4.470s] Installing siyi_stream_node script to /home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+[4.470s] writing list of installed files to '/home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log'
+[4.473s] Invoked command in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi' returned '0': PYTHONPATH=/home/jetson/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build install --record /home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/run_uav/run_uav.egg-info
+writing ../../build/run_uav/run_uav.egg-info/PKG-INFO
+writing dependency_links to ../../build/run_uav/run_uav.egg-info/dependency_links.txt
+writing entry points to ../../build/run_uav/run_uav.egg-info/entry_points.txt
+writing requirements to ../../build/run_uav/run_uav.egg-info/requires.txt
+writing top-level names to ../../build/run_uav/run_uav.egg-info/top_level.txt
+writing manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'
+reading manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'
+writing manifest file '../../build/run_uav/run_uav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/ros2_link_ws/build/run_uav/build
+creating /home/jetson/ros2_link_ws/build/run_uav/build/lib
+creating /home/jetson/ros2_link_ws/build/run_uav/build/lib/run_uav
+copying run_uav/__init__.py -> /home/jetson/ros2_link_ws/build/run_uav/build/lib/run_uav
+running install
+running install_lib
+creating /home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav
+copying /home/jetson/ros2_link_ws/build/run_uav/build/lib/run_uav/__init__.py -> /home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav
+byte-compiling /home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jetson/ros2_link_ws/install/run_uav/share/ament_index
+creating /home/jetson/ros2_link_ws/install/run_uav/share/ament_index/resource_index
+creating /home/jetson/ros2_link_ws/install/run_uav/share/ament_index/resource_index/packages
+copying resource/run_uav -> /home/jetson/ros2_link_ws/install/run_uav/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/ros2_link_ws/install/run_uav/share/run_uav
+copying launch/run_uav.py -> /home/jetson/ros2_link_ws/install/run_uav/share/run_uav
+running install_egg_info
+Copying ../../build/run_uav/run_uav.egg-info to /home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages/run_uav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jetson/ros2_link_ws/build/run_uav/install.log'

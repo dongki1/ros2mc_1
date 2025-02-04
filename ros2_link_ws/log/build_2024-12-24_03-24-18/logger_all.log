@@ -1,0 +1,308 @@
+[0.282s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.282s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaf7dcaf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaf7dc640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaf7dc640>>, mixin_verb=('build',))
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.663s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_link_ws'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari-drone-system) by extension 'ros'
+[0.704s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kari-drone-system' with type 'ros.ament_cmake' and name 'kari-drone-system'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/kari_UAV_siyi) by extension 'ros'
+[0.706s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kari_UAV_siyi' with type 'ros.ament_python' and name 'kari_UAV_siyi'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extensions ['colcon_pkg']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extension 'colcon_pkg'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_uav) by extension 'ros'
+[0.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/run_uav' with type 'ros.ament_python' and name 'run_uav'
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_target' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_clean_first' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'cmake_force_configure' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'ament_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'kari-drone-system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.765s] DEBUG:colcon.colcon_core.verb:Building package 'kari-drone-system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_link_ws/build/kari-drone-system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_link_ws/install/kari-drone-system', 'merge_install': False, 'path': '/home/jetson/ros2_link_ws/src/kari-drone-system', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'kari_UAV_siyi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'kari_UAV_siyi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_link_ws/build/kari_UAV_siyi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_link_ws/install/kari_UAV_siyi', 'merge_install': False, 'path': '/home/jetson/ros2_link_ws/src/kari_UAV_siyi', 'symlink_install': False, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_link_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_link_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/jetson/ros2_link_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_target' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_clean_first' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'run_uav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'run_uav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_link_ws/build/run_uav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_link_ws/install/run_uav', 'merge_install': False, 'path': '/home/jetson/ros2_link_ws/src/run_uav', 'symlink_install': False, 'test_result_base': None}
+[0.769s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_link_ws/src/kari-drone-system' with build type 'ament_cmake'
+[0.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_link_ws/src/kari-drone-system'
+[0.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.793s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi' with build type 'ament_python'
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('kari_UAV_siyi', 'ament_prefix_path')
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/ament_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/ament_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/ament_prefix_path.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_link_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_link_ws/src/px4_msgs'
+[0.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.816s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_link_ws/src/run_uav' with build type 'ament_python'
+[0.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('run_uav', 'ament_prefix_path')
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/ament_prefix_path.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/ament_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/ament_prefix_path.sh'
+[0.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/build/kari-drone-system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/kari-drone-system -- -j6 -l6
+[1.350s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi'
+[1.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/px4_msgs -- -j6 -l6
+[1.863s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_link_ws/src/run_uav'
+[1.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/build/kari-drone-system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/kari-drone-system -- -j6 -l6
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/build/kari-drone-system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --install /home/jetson/ros2_link_ws/build/kari-drone-system
+[2.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/src/run_uav': PYTHONPATH=/home/jetson/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/run_uav build --build-base /home/jetson/ros2_link_ws/build/run_uav/build install --record /home/jetson/ros2_link_ws/build/run_uav/install.log --single-version-externally-managed install_data
+[2.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi': PYTHONPATH=/home/jetson/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build install --record /home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data
+[3.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/px4_msgs -- -j6 -l6
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav' for CMake module files
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav' for CMake config files
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav/lib'
+[3.535s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav/bin'
+[3.536s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav/lib/pkgconfig/run_uav.pc'
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages'
+[3.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('run_uav', 'pythonpath')
+[3.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/pythonpath.ps1'
+[3.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/pythonpath.dsv'
+[3.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/hook/pythonpath.sh'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/run_uav/bin'
+[3.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(run_uav)
+[3.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/package.ps1'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/package.dsv'
+[3.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/package.sh'
+[3.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/package.bash'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/run_uav/share/run_uav/package.zsh'
+[3.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/run_uav/share/colcon-core/packages/run_uav)
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi' for CMake module files
+[3.675s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi' for CMake config files
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib'
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/bin'
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/pkgconfig/kari_UAV_siyi.pc'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages'
+[3.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('kari_UAV_siyi', 'pythonpath')
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/pythonpath.ps1'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/pythonpath.dsv'
+[3.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/hook/pythonpath.sh'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/bin'
+[3.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kari_UAV_siyi)
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/package.ps1'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/package.dsv'
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/package.sh'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/package.bash'
+[3.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/kari_UAV_siyi/package.zsh'
+[3.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/kari_UAV_siyi/share/colcon-core/packages/kari_UAV_siyi)
+[3.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/src/run_uav' returned '0': PYTHONPATH=/home/jetson/ros2_link_ws/build/run_uav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/run_uav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/run_uav build --build-base /home/jetson/ros2_link_ws/build/run_uav/build install --record /home/jetson/ros2_link_ws/build/run_uav/install.log --single-version-externally-managed install_data
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/src/kari_UAV_siyi' returned '0': PYTHONPATH=/home/jetson/ros2_link_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_link_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/jetson/ros2_link_ws/build/kari_UAV_siyi/build install --record /home/jetson/ros2_link_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data
+[4.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kari-drone-system)
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system' for CMake module files
+[4.357s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system' for CMake config files
+[4.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('kari-drone-system', 'cmake_prefix_path')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.ps1'
+[4.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.dsv'
+[4.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.sh'
+[4.828s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/bin'
+[4.828s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/lib/pkgconfig/kari-drone-system.pc'
+[4.829s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/lib/python3.10/site-packages'
+[4.830s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/bin'
+[4.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.ps1'
+[4.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.dsv'
+[4.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.sh'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.bash'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.zsh'
+[4.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/kari-drone-system/share/colcon-core/packages/kari-drone-system)
+[4.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kari-drone-system)
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system' for CMake module files
+[4.888s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system' for CMake config files
+[5.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/build/kari-drone-system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --install /home/jetson/ros2_link_ws/build/kari-drone-system
+[5.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('kari-drone-system', 'cmake_prefix_path')
+[5.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.dsv'
+[5.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/hook/cmake_prefix_path.sh'
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/bin'
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/lib/pkgconfig/kari-drone-system.pc'
+[5.218s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/lib/python3.10/site-packages'
+[5.218s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/kari-drone-system/bin'
+[5.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.ps1'
+[5.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.dsv'
+[5.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.sh'
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.bash'
+[5.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/kari-drone-system/share/kari-drone-system/package.zsh'
+[5.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/kari-drone-system/share/colcon-core/packages/kari-drone-system)
+[10.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_link_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --install /home/jetson/ros2_link_ws/build/px4_msgs
+[11.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs' for CMake module files
+[11.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_link_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/run_uav:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --install /home/jetson/ros2_link_ws/build/px4_msgs
+[11.418s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs' for CMake config files
+[11.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[11.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[11.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[11.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[11.430s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib'
+[11.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[11.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[11.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[11.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[11.433s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/bin'
+[11.433s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[11.434s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib/python3.10/site-packages'
+[11.434s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/bin'
+[11.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[11.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[11.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[11.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[11.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[11.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[18.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[18.938s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs' for CMake module files
+[18.940s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs' for CMake config files
+[18.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[18.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[18.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[18.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[18.959s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib'
+[18.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[18.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[18.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[18.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[18.963s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/bin'
+[18.963s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[18.963s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/lib/python3.10/site-packages'
+[18.964s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_link_ws/install/px4_msgs/bin'
+[18.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[18.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[18.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[18.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[18.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_link_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[18.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_link_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[18.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.972s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.996s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.002s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[19.003s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_link_ws/install/local_setup.ps1'
+[19.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_link_ws/install/_local_setup_util_ps1.py'
+[19.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_link_ws/install/setup.ps1'
+[19.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_link_ws/install/local_setup.sh'
+[19.016s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_link_ws/install/_local_setup_util_sh.py'
+[19.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_link_ws/install/setup.sh'
+[19.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_link_ws/install/local_setup.bash'
+[19.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_link_ws/install/setup.bash'
+[19.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_link_ws/install/local_setup.zsh'
+[19.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_link_ws/install/setup.zsh'
