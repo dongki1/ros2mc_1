@@ -1,13 +1,13 @@
 # Copyright 2016-2019 Dirk Thomas
 # Licensed under the Apache License, Version 2.0
-
+ 
 import argparse
 from collections import OrderedDict
 import os
 from pathlib import Path
 import sys
 
-
+   
 FORMAT_STR_COMMENT_LINE = '# {comment}'
 FORMAT_STR_SET_ENV_VAR = 'Set-Item -Path "Env:{name}" -Value "{value}"'
 FORMAT_STR_USE_ENV_VAR = '$env:{name}'

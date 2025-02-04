@@ -1,0 +1,8 @@
+services:
+  ros2:
+    build: ~/ros2_humble_docker/
+    container_name: ros2_jetson
+    volumes:
+      - ~/ros2_ws:/mnt/ssd/ros2_ws
+    network_mode: host
+    tty: true
