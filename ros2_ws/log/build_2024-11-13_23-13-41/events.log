@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.001076] (kari-ground-system) JobQueued: {'identifier': 'kari-ground-system', 'dependencies': OrderedDict()}
+[0.001439] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001738] (kari-ground-system) JobStarted: {'identifier': 'kari-ground-system'}
+[0.017376] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.023819] (kari-ground-system) JobProgress: {'identifier': 'kari-ground-system', 'progress': 'cmake'}
+[0.025477] (kari-ground-system) JobProgress: {'identifier': 'kari-ground-system', 'progress': 'build'}
+[0.026655] (kari-ground-system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ssd/ros2_ws/build/kari-ground-system', '--', '-j6', '-l6'], 'cwd': '/mnt/ssd/ros2_ws/build/kari-ground-system', 'env': OrderedDict([('HOSTNAME', 'ros2'), ('HOME', '/root'), ('OLDPWD', '/mnt/ssd'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/mnt/ssd/ros2_ws/build/kari-ground-system'), ('COLCON', '1')]), 'shell': False}
+[0.034091] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.035971] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.036531] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ssd/ros2_ws/build/px4_msgs', '--', '-j6', '-l6'], 'cwd': '/mnt/ssd/ros2_ws/build/px4_msgs', 'env': OrderedDict([('HOSTNAME', 'ros2'), ('HOME', '/root'), ('OLDPWD', '/mnt/ssd'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/mnt/ssd/ros2_ws/build/px4_msgs'), ('COLCON', '1')]), 'shell': False}
+[0.080252] (kari-ground-system) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /mnt/ssd/ros2_ws/build/kari-ground-system/CMakeCache.txt is different than the directory /home/ros2mc/ros2_ws/build/kari-ground-system where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.080782] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /mnt/ssd/ros2_ws/build/px4_msgs/CMakeCache.txt is different than the directory /home/ros2mc/ros2_ws/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.099209] (-) TimerEvent: {}
+[0.102444] (kari-ground-system) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/ros2mc/ros2_ws/kari-drone-system" does not exist.\n'}
+[0.102789] (kari-ground-system) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.107611] (kari-ground-system) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.112961] (kari-ground-system) CommandEnded: {'returncode': 2}
+[0.199404] (-) TimerEvent: {}
+[0.300201] (-) TimerEvent: {}
+[0.396482] (kari-ground-system) JobEnded: {'identifier': 'kari-ground-system', 'rc': 2}
+[0.400259] (-) TimerEvent: {}
+[0.500647] (-) TimerEvent: {}
+[0.583975] (px4_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/ros2mc/ros2_ws/src/px4_msgs" does not exist.\n'}
+[0.584639] (px4_msgs) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.585764] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:40275: cmake_check_build_system] Error 1\n'}
+[0.590486] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[0.600905] (-) TimerEvent: {}
+[0.602102] (-) EventReactorShutdown: {}

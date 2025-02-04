@@ -1,0 +1,5 @@
+[0.049s] Invoking command in '/home/ros2mc/ros2_ws/build/kari-drone-system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_ws/build/kari-drone-system -- -j6 -l6
+[0.640s] [0mCMake Error: The source directory "/home/ros2mc/ros2_ws/kari-drone-system" does not exist.
+[0.640s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.640s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.645s] Invoked command in '/home/ros2mc/ros2_ws/build/kari-drone-system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_ws/build/kari-drone-system -- -j6 -l6

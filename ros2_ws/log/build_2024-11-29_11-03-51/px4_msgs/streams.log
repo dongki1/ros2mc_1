@@ -1,0 +1,40 @@
+[0.599s] Invoking command in '/home/ros2mc/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2mc/ros2_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake /home/ros2mc/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2mc/ros2_ws/install/px4_msgs
+[0.814s] -- The C compiler identification is GNU 11.4.0
+[1.011s] -- The CXX compiler identification is GNU 11.4.0
+[1.038s] -- Detecting C compiler ABI info
+[1.211s] -- Detecting C compiler ABI info - done
+[1.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.230s] -- Detecting C compile features
+[1.232s] -- Detecting C compile features - done
+[1.239s] -- Detecting CXX compiler ABI info
+[1.405s] -- Detecting CXX compiler ABI info - done
+[1.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.425s] -- Detecting CXX compile features
+[1.427s] -- Detecting CXX compile features - done
+[1.434s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.812s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.021s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.097s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.111s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.131s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.235s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.755s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.760s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.765s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.772s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.015s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.019s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.076s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.076s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.077s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.123s] -- Found PythonExtra: .so  
+[7.252s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[7.257s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[7.293s] -- Configuring done
+[7.908s] -- Generating done
+[7.915s] -- Build files have been written to: /home/ros2mc/ros2_ws/build/px4_msgs

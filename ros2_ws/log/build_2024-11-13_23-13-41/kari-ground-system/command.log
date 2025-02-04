@@ -1,0 +1,2 @@
+Invoking command in '/mnt/ssd/ros2_ws/build/kari-ground-system': /usr/bin/cmake --build /mnt/ssd/ros2_ws/build/kari-ground-system -- -j6 -l6
+Invoked command in '/mnt/ssd/ros2_ws/build/kari-ground-system' returned '2': /usr/bin/cmake --build /mnt/ssd/ros2_ws/build/kari-ground-system -- -j6 -l6

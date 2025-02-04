@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2mc/ros2_ws/build/kari-ground-system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2mc/ros2_ws/kari-drone-system -DCMAKE_INSTALL_PREFIX=/home/ros2mc/ros2_ws/install/kari-ground-system
+Invoked command in '/home/ros2mc/ros2_ws/build/kari-ground-system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2mc/ros2_ws/kari-drone-system -DCMAKE_INSTALL_PREFIX=/home/ros2mc/ros2_ws/install/kari-ground-system
+Invoking command in '/home/ros2mc/ros2_ws/build/kari-ground-system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_ws/build/kari-ground-system -- -j6 -l6
+Invoked command in '/home/ros2mc/ros2_ws/build/kari-ground-system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2mc/ros2_ws/build/kari-ground-system -- -j6 -l6
+Invoking command in '/home/ros2mc/ros2_ws/build/kari-ground-system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2mc/ros2_ws/build/kari-ground-system
+Invoked command in '/home/ros2mc/ros2_ws/build/kari-ground-system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2mc/ros2_ws/build/kari-ground-system

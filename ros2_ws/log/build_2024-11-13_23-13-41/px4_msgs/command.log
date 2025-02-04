@@ -1,0 +1,1 @@
+Invoking command in '/mnt/ssd/ros2_ws/build/px4_msgs': /usr/bin/cmake --build /mnt/ssd/ros2_ws/build/px4_msgs -- -j6 -l6

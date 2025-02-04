@@ -1,0 +1,6 @@
+[0.077s] Invoking command in '/home/jetson/ros2_link_ws/build/kari-drone-system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/kari-drone-system -- -j6 -l6
+[0.767s] [0mCMake Error: The current CMakeCache.txt directory /home/jetson/ros2_link_ws/build/kari-drone-system/CMakeCache.txt is different than the directory /home/ros2mc/ros2_ws/build/kari-drone-system where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.767s] [0mCMake Error: The source directory "/home/ros2mc/ros2_ws/kari-drone-system" does not exist.
+[0.767s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.768s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.804s] Invoked command in '/home/jetson/ros2_link_ws/build/kari-drone-system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_link_ws/install/kari_UAV_siyi:/opt/ros/humble /usr/bin/cmake --build /home/jetson/ros2_link_ws/build/kari-drone-system -- -j6 -l6

@@ -1,0 +1,96 @@
+[4.957s] Invoking command in '/home/ros2mc/ros2_ws/src/kari_UAV_siyi': PYTHONPATH=/home/ros2mc/ros2_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build install --record /home/ros2mc/ros2_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data
+[5.820s] running egg_info
+[5.835s] writing ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/PKG-INFO
+[5.837s] writing dependency_links to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/dependency_links.txt
+[5.837s] writing entry points to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/entry_points.txt
+[5.841s] writing requirements to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/requires.txt
+[5.841s] writing top-level names to ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/top_level.txt
+[5.850s] reading manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+[5.853s] writing manifest file '../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info/SOURCES.txt'
+[5.854s] running build
+[5.854s] running build_py
+[5.855s] copying kari_UAV_siyi/UAV_siyi_control.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi
+[5.855s] copying kari_UAV_siyi/UAV_siyi_stream.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi
+[5.855s] copying kari_UAV_siyi/__init__.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi
+[5.856s] copying siyi_sdk/siyi_sdk.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.857s] copying siyi_sdk/siyi_message.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.857s] copying siyi_sdk/utils.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.857s] copying siyi_sdk/__init__.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.857s] copying siyi_sdk/crc16_python.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.858s] copying siyi_sdk/stream.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk
+[5.858s] copying siyi_sdk/tests/test_get_gimbal_info.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.859s] copying siyi_sdk/tests/test_record_video.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.860s] copying siyi_sdk/tests/test_from_rtsp_to_rtmp.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.860s] copying siyi_sdk/tests/test_get_fw_ver.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.861s] copying siyi_sdk/tests/test_center_gimbal.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.862s] copying siyi_sdk/tests/test_follow_mode.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.862s] copying siyi_sdk/tests/udp_server.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.863s] copying siyi_sdk/tests/test_fpv_mode.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.864s] copying siyi_sdk/tests/test_get_hw_id.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.864s] copying siyi_sdk/tests/__init__.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.865s] copying siyi_sdk/tests/test_gimbal_rotation.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.866s] copying siyi_sdk/tests/test_lock_mode.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.866s] copying siyi_sdk/tests/test_zoom.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.867s] copying siyi_sdk/tests/test_rtmp_stream.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.867s] copying siyi_sdk/tests/test_rtsp.py -> /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests
+[5.869s] running install
+[5.870s] running install_lib
+[5.873s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi/UAV_siyi_control.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi
+[5.874s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi/UAV_siyi_stream.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi
+[5.874s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/kari_UAV_siyi/__init__.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi
+[5.874s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/siyi_sdk.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.874s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/siyi_message.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.874s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/utils.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.875s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/__init__.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.877s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_get_gimbal_info.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.877s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_record_video.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.877s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_from_rtsp_to_rtmp.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.878s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_get_fw_ver.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.878s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_center_gimbal.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.878s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_follow_mode.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.878s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/udp_server.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.879s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_fpv_mode.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.879s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_get_hw_id.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.880s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/__init__.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.881s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_gimbal_rotation.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.881s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_lock_mode.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.882s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_zoom.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.882s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_rtmp_stream.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.882s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/tests/test_rtsp.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests
+[5.883s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/crc16_python.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.883s] copying /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build/lib/siyi_sdk/stream.py -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk
+[5.887s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi/UAV_siyi_control.py to UAV_siyi_control.cpython-310.pyc
+[5.897s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi/UAV_siyi_stream.py to UAV_siyi_stream.cpython-310.pyc
+[5.901s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi/__init__.py to __init__.cpython-310.pyc
+[5.904s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/siyi_sdk.py to siyi_sdk.cpython-310.pyc
+[5.931s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/siyi_message.py to siyi_message.cpython-310.pyc
+[5.941s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/utils.py to utils.cpython-310.pyc
+[5.942s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/__init__.py to __init__.cpython-310.pyc
+[5.943s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_get_gimbal_info.py to test_get_gimbal_info.cpython-310.pyc
+[5.945s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_record_video.py to test_record_video.cpython-310.pyc
+[5.947s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_from_rtsp_to_rtmp.py to test_from_rtsp_to_rtmp.cpython-310.pyc
+[5.949s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_get_fw_ver.py to test_get_fw_ver.cpython-310.pyc
+[5.951s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_center_gimbal.py to test_center_gimbal.cpython-310.pyc
+[5.952s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_follow_mode.py to test_follow_mode.cpython-310.pyc
+[5.954s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/udp_server.py to udp_server.cpython-310.pyc
+[5.956s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_fpv_mode.py to test_fpv_mode.cpython-310.pyc
+[5.959s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_get_hw_id.py to test_get_hw_id.cpython-310.pyc
+[5.960s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/__init__.py to __init__.cpython-310.pyc
+[5.962s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_gimbal_rotation.py to test_gimbal_rotation.cpython-310.pyc
+[5.964s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_lock_mode.py to test_lock_mode.cpython-310.pyc
+[5.965s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_zoom.py to test_zoom.cpython-310.pyc
+[5.967s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_rtmp_stream.py to test_rtmp_stream.cpython-310.pyc
+[5.970s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/tests/test_rtsp.py to test_rtsp.cpython-310.pyc
+[5.970s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/crc16_python.py to crc16_python.cpython-310.pyc
+[5.974s] byte-compiling /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/siyi_sdk/stream.py to stream.cpython-310.pyc
+[5.980s] running install_data
+[5.980s] copying resource/kari_UAV_siyi -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/share/ament_index/resource_index/packages
+[5.980s] copying package.xml -> /home/ros2mc/ros2_ws/install/kari_UAV_siyi/share/kari_UAV_siyi
+[5.980s] running install_egg_info
+[5.991s] removing '/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info' (and everything under it)
+[5.993s] Copying ../../build/kari_UAV_siyi/kari_UAV_siyi.egg-info to /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages/kari_UAV_siyi-0.0.0-py3.10.egg-info
+[5.995s] running install_scripts
+[6.065s] Installing siyi_control_node script to /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+[6.066s] Installing siyi_stream_node script to /home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/kari_UAV_siyi
+[6.068s] writing list of installed files to '/home/ros2mc/ros2_ws/build/kari_UAV_siyi/install.log'
+[6.224s] Invoked command in '/home/ros2mc/ros2_ws/src/kari_UAV_siyi' returned '0': PYTHONPATH=/home/ros2mc/ros2_ws/build/kari_UAV_siyi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2mc/ros2_ws/install/kari_UAV_siyi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kari_UAV_siyi build --build-base /home/ros2mc/ros2_ws/build/kari_UAV_siyi/build install --record /home/ros2mc/ros2_ws/build/kari_UAV_siyi/install.log --single-version-externally-managed install_data

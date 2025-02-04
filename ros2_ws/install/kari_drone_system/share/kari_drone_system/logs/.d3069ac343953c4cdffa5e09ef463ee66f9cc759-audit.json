@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/ros2mc/ros2_ws/install/kari_drone_system/share/kari_drone_system/logs/.d3069ac343953c4cdffa5e09ef463ee66f9cc759-audit.json",
+    "files": [
+        {
+            "date": 1735157729024,
+            "name": "/home/ros2mc/ros2_ws/install/kari_drone_system/share/kari_drone_system/logs/info.log.2024-12-26",
+            "hash": "449a19670c5de2b34a48bef58d0f46148048acdf1f911ad74caa51310ee082e6"
+        }
+    ],
+    "hashType": "sha256"
+}
