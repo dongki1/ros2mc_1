@@ -1,9 +1,0 @@
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/uninstall.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/kari-drone-system_uninstall.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/test.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/edit_cache.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/rebuild_cache.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/list_install_components.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/install.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/install/local.dir
-/home/ros2mc/ros2_ws/build/kari-drone-system/CMakeFiles/install/strip.dir

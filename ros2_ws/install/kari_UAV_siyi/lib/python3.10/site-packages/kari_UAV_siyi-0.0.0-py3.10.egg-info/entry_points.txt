@@ -1,4 +1,0 @@
-[console_scripts]
-siyi_control_node = kari_UAV_siyi.UAV_siyi_control:main
-siyi_stream_node = kari_UAV_siyi.UAV_siyi_stream:main
-

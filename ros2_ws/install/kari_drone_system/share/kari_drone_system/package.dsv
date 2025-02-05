@@ -1,8 +1,0 @@
-source;share/kari_drone_system/hook/cmake_prefix_path.ps1
-source;share/kari_drone_system/hook/cmake_prefix_path.dsv
-source;share/kari_drone_system/hook/cmake_prefix_path.sh
-source;share/kari_drone_system/local_setup.bash
-source;share/kari_drone_system/local_setup.dsv
-source;share/kari_drone_system/local_setup.ps1
-source;share/kari_drone_system/local_setup.sh
-source;share/kari_drone_system/local_setup.zsh
